@@ -1,0 +1,257 @@
+/* ################################  general style  ####################################### */
+
+/* generl class */
+a {
+    text-decoration: none
+}
+
+.under-line {
+    border-bottom: 5px solid #0391db
+}
+
+.navbar-toggler {
+    border: 1px solid #9e9e9e !important;
+    cursor: pointer;
+    outline: none
+}
+
+/* generl class */
+
+/* navbar */
+
+.navbar a {
+    color: #0391db
+}
+
+.navbar .btn>a {
+    color: #FFF !important
+}
+
+/* navbar */
+
+/* ################################  general style  ####################################### */
+
+
+/* ################################  index Page  ####################################### */
+
+/* our-product */
+.our-product .card {
+    border: none
+}
+
+/* our-product */
+
+/* easy-to-use */
+.easy-to-use .listUse {
+    /* list-style-type: disclosure-closed */
+    list-style-type: disc
+}
+
+.easy-to-use ul li::marker {
+    color: #0391db
+}
+
+/* easy-to-use */
+
+/* footer */
+.footer {
+    background-color: #333;
+    color: #fff;
+    line-height: 2;
+}
+
+.footer a {
+    color: #fff !important
+}
+
+/* footer */
+
+/* ################################  index Page  ####################################### */
+
+
+/* ################################  login Page  ####################################### */
+
+/* login Page */
+.login .fa-eye {
+    position: relative;
+    top: -30px;
+    left: 255px;
+    cursor: pointer
+}
+
+/* login Page */
+
+/* ################################  login Page  ####################################### */
+
+/* ################################  desc-product Page  ####################################### */
+.desc-product ul li {
+    line-height: 2.3;
+}
+
+/* ################################  desc-product Page  ####################################### */
+
+/* ################################  Dashboard Page  ####################################### */
+
+/* dash */
+.dash.navbar,
+.leftMenu {
+    background-color: #f4f4f4 !important
+}
+
+/* dash */
+
+/* leftMenu */
+.leftMenu {
+    width: 15% !important;
+    height: 100vh;
+}
+
+.leftMenu ul li {
+    line-height: 4;
+    text-indent: 5px;
+    transition-delay: 0.2s;
+    transition: all 0.5s ease-in-out;
+    color: #0391db
+}
+
+.leftMenu ul li:hover {
+    background-color: #fff !important;
+}
+
+/* leftMenu */
+
+
+/* work space */
+.work-space {
+    margin-left: 15%
+}
+
+/* work space */
+
+@media(max-width: 992px) and (min-width: 100px) {
+
+/* }
+
+
+@media(max-width: 500px) and (min-width: 100px) {
+ */
+
+    /* leftMenu */
+    .leftMenu {
+        width: 100% !important;
+        z-index: 2;
+    }
+
+    .leftMenu ul {
+        margin-top: 4rem !important
+    }
+
+    .leftMenu .fas,
+    .leftMenu .fab {
+        display: none;
+    }
+
+    /* leftMenu */
+
+    /* work space */
+    .work-space {
+        margin: auto;
+        margin-top: 80px
+    }
+
+    /* work space */
+
+
+    /* dashboard-text-sm-none */
+    .dashboard-text-sm-none {
+        display: none
+    }
+
+    /* dashboard-text-sm-none */
+}
+
+/* ################################  Dashboard Page  ####################################### */
+
+
+
+/* ################################  Dashboard Page  ####################################### */
+
+/* dash */
+.dash.navbar,
+.leftMenu {
+    background-color: #f4f4f4 !important
+}
+
+/* dash */
+
+/* leftMenu */
+.leftMenu {
+    width: 15% !important;
+    height: 100vh;
+}
+
+.leftMenu ul li {
+    line-height: 4;
+    text-indent: 5px;
+    transition-delay: 0.2s;
+    transition: all 0.5s ease-in-out;
+    color: #0391db
+}
+
+.leftMenu ul li:hover {
+    background-color: #fff !important;
+}
+
+/* leftMenu */
+
+
+/* work space */
+.work-space {
+    margin-left: 15%
+}
+
+/* work space */
+
+@media(max-width: 992px) and (min-width: 100px) {
+
+/* }
+
+
+@media(max-width: 500px) and (min-width: 100px) {
+ */
+
+    /* leftMenu */
+    .leftMenu {
+        width: 100% !important;
+        z-index: 2;
+    }
+
+    .leftMenu ul {
+        margin-top: 4rem !important
+    }
+
+    .leftMenu .fas,
+    .leftMenu .fab {
+        display: none;
+    }
+
+    /* leftMenu */
+
+    /* work space */
+    .work-space {
+        margin: auto;
+        margin-top: 80px
+    }
+
+    /* work space */
+
+
+    /* dashboard-text-sm-none */
+    .dashboard-text-sm-none {
+        display: none
+    }
+
+    /* dashboard-text-sm-none */
+}
+
+/* ################################  Dashboard Page  ####################################### */

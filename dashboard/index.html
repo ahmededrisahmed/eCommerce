@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Dashboard</title>
+</head>
+
+<body>
+
+    <!-- navbar -->
+    <nav class="dash navbar navbar-expand-lg fixed-top">
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1"
+            aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon" style="width: 22px; height: 4px; background-color: #dad3d3; display: block; margin-bottom: 3px"></span>
+            <span class="navbar-toggler-icon" style="width: 22px; height: 4px; background-color: #dad3d3; display: block; margin-bottom: 3px"></span>
+            <span class="navbar-toggler-icon" style="width: 22px; height: 4px; background-color: #dad3d3; display: block; margin-bottom: 3px"></span>
+        </button>
+
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav ml-auto text-primary">
+                <li class="nav-item mr-3">
+                    <i class="fas fa-plus fa-fw text-secondary"></i>
+                </li>
+                <li class="nav-item mr-3">
+                    <i class="fas fa-tags   fa-fw"></i>
+                </li>
+                <li class="nav-item mr-3">
+                    <i class="fas fa-bell fa-fw"></i>
+                </li>
+                <li class="nav-item">
+                    <i class="fas fa-sign-out-alt fa-fw"></i>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- navbar -->
+
+    <!-- left menu -->
+    <div class="leftMenu fixed-top collapse navbar-collapse" id="navbarSupportedContent1">
+        <ul class="list-unstyled mt-3">
+            <span class="d-none-sm ml-3 mb-2" href="/">
+                Hair Issues
+            </span>
+            <li>
+                <i class="fas fa-tachometer-alt fa-fw"></i>
+                <a href="/dashboard/index.html" class="ml-3 mt-3 mt-sm">Dashboard</a>
+            </li>
+            <li>
+                <i class="fab fa-product-hunt"></i>
+                <a href="product.html" class="ml-3">Product</a>
+            </li>
+            <li>
+                <i class="fab fa-first-order fa-fw"></i>
+                <a href="order.html" class="ml-3">Order</a>
+            </li>
+            <li>
+                <i class="fas fa-users   fa-fw"></i>
+                <a href="user.html" class="ml-3">Users</a>
+            </li>
+            <li>
+                <i class="fas fa-shipping-fast   fa-fw"></i>
+                <a href="shipping.html" class="ml-3">Shipping</a>
+            </li>
+            <li>
+                <i class="fas fa-adjust   fa-fw"></i>
+                <a href="#" class="ml-3">Setting</a>
+            </li>
+        </ul>
+    </div>
+    <!-- left menu -->
+
+    <!-- work space -->
+    <section class="work-space">
+        <div class="container">
+            <h3 class="text-capitalize mt-5 mb-4 dashboard-text-sm-none">dashboard</h3>
+            <div class="row">
+                <div class="col-lg-4 col-sm-6 col-12">
+                    <div class="card text-white bg-primary mb-3" style="max-width: 18rem;">
+                        <div class="card-header text-capitalize">Member</div>
+                        <div class="card-body">
+                            <h5 class="card-title">member : 20</h5>
+                            <h6 class="card-title">last member join : 20</h6>
+                            <a href="" class="btn btn-light btn-sm"><i class="fas fa-plus fa-fw"></i> add new member</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 col-12">
+                    <div class="card text-white bg-secondary mb-3" style="max-width: 18rem;">
+                        <div class="card-header text-capitalize">Admin</div>
+                        <div class="card-body">
+                            <h5 class="card-title">admin : 3</h5>
+                            <h6 class="card-title">last admin added : 1</h6>
+                            <a href="" class="btn btn-light btn-sm"><i class="fas fa-plus fa-fw"></i> add new admin</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 col-12">
+                    <div class="card text-white bg-success mb-3" style="max-width: 18rem;">
+                        <div class="card-header text-capitalize">product</div>
+                        <div class="card-body">
+                            <h5 class="card-title">product : 9</h5>
+                            <h6 class="card-title">last product added : 4</h6>
+                            <a href="" class="btn btn-light btn-sm"><i class="fas fa-plus fa-fw"></i> add new
+                                product</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 col-12">
+                    <div class="card text-white bg-info mb-3" style="max-width: 18rem;">
+                        <div class="card-header text-capitalize">shopping</div>
+                        <div class="card-body">
+                            <h5 class="card-title">shop complete : 3</h5>
+                            <h6 class="card-title">shop cancelled : 1</h6>
+                            <h6 class="card-title">shop pendding : 5</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 col-12">
+                    <div class="card text-white bg-danger mb-3" style="max-width: 18rem;">
+                        <div class="card-header text-capitalize">product waiting for approval</div>
+                        <div class="card-body">
+                            <h5 class="card-title">product waiting : 43</h5>
+                            <h6 class="card-title">last product accsept : 4</h6>
+                            <a href="" class="btn btn-light btn-sm">product waiting for approval</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 col-12">
+                    <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+                        <div class="card-header text-capitalize">total profit</div>
+                        <div class="card-body">
+                            <h5 class="card-title">from shipping : $500</h5>
+                            <h6 class="card-title">from product : $2500</h6>
+                            <h6 class="card-title">Total : $3000</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- work space -->
+
+
+    <script src="../js/jquery-3.4.1.min.js"></script>
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/main.js"></script>
+</body>
+
+</html>
